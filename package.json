@@ -5,6 +5,10 @@
   "license": "MIT",
   "packageManager": "yarn@4.0.2",
   "private": true,
+  "scripts": {
+    "server": "yarn workspace server",
+    "reference": "yarn workspace reference",
+  },
   "workspaces": [
     "packages/*"
   ]
