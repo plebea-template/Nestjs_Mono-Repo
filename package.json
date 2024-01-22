@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "server": "yarn workspace server",
-    "reference": "yarn workspace reference",
+    "reference": "yarn workspace reference"
   },
   "workspaces": [
     "packages/*"
