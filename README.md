@@ -14,7 +14,7 @@ yarn install
 ## Build
 
 ```
-yarn workspaces foreach build
+yarn workspaces foreach --all run build
 ```
 
 # Start
@@ -22,13 +22,13 @@ yarn workspaces foreach build
 ## Production mode
 
 ```
-yarn workspace server start:prod
+yarn server start:prod
 ```
 
 ## Development mode
 
 ```
-yarn workspace server start:dev
+yarn server start:dev
 ```
 
 # Docs
