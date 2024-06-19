@@ -6,7 +6,7 @@ export const ConfigValidator = Joi.object({
     .valid('development', 'production', 'test')
     .default('production'),
   CORS_ORIGIN: Joi.string().default('*'),
-  CORS_METHODS: Joi.string().default('GET,PUT,POST,DELETE'),
+  CORS_METHODS: Joi.string().default('GET,PUT,POST,DELETE,PATCH'),
   CORS_CREDENTIALS: Joi.boolean().default(true),
   CORS_PREFLIGHT: Joi.boolean().default(false),
   CORS_OPTIONS_STATUS: Joi.number().default(204),
